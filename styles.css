@@ -24,7 +24,7 @@ ul a{
     flex: 1;
 }
 
-li{
+a li{
     flex: 1;
     list-style: none;
     color: black;
@@ -133,4 +133,43 @@ p{
 #larg{
     font-size: 200px;
     margin-left: 10px;
+}
+
+#diff{
+    display: flex;
+}
+
+#diff ul{
+    flex: 1;
+}
+
+#diff li{
+    font-family: "monainn";
+    font-size:larger;
+    letter-spacing: 2px;
+}
+
+#centered{
+    text-align: center;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #552586
+    }
+
+    50% {
+        background-color: #6A359C
+    }
+
+    100% {
+        background-color: #6d3ca1
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 15s infinite;
+    animation: bgcolor 7.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
