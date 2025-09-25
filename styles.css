@@ -124,4 +124,13 @@ p{
 #smol{
     font-size: xx-small;
     color: #260154;
+    margin: -100px;
+    margin-left: 15px;
+    z-index: 999;
+    position: fixed;
+}
+
+#larg{
+    font-size: 200px;
+    margin-left: 10px;
 }
