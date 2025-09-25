@@ -1,11 +1,16 @@
 @font-face {
-    font-family: 'moogalator';
-    src: url("Fonts/Moogalator.ttf");
+    font-family: 'combine';
+    src: url("Fonts/CombineMantiraSans.otf");
 }
 
 @font-face {
     font-family: 'witcher';
     src: url("Fonts/WitcherHandwritingRegular.ttf");
+}
+
+@font-face {
+    font-family: 'monainn';
+    src: url("Fonts/MonainnRegular.otf");
 }
 
 ul{
@@ -23,13 +28,13 @@ li{
     flex: 1;
     list-style: none;
     color: black;
-    background-color: white;
+    background-color: rgb(170, 94, 231);
     text-align: center;
     padding: 10px;
 }
 
 ul a li:hover{
-    background-color: grey;
+    background-color: rgb(113, 39, 184);
 
 }
 
@@ -65,20 +70,22 @@ article{
     padding: 7px;
     padding-left: 15px;
     padding-right: 15px;
-    border: 5px solid blue;
+    border: 5px solid #B19CD9 ;
 }
 
 a{
     text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color: #260154;
     color: white;
 }
 
 h1{
     text-align: center;
-    font-family: "moogalator";
+    font-family: "combine";
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 h2{
@@ -88,7 +95,7 @@ h2{
 nav{
     font-size: x-large;
     font-weight: bold;
-    background-color: white;
+    background-color: rgb(170, 94, 231);
     width: 100%;
     position: absolute;
     top: 0px;
@@ -98,4 +105,23 @@ nav{
 main{
     position: relative;
     top: 100px;
+}
+
+p{
+    font-family: "monainn";
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+#sBar{
+    margin-top: -150px;
+    margin-bottom: -150px;
+    margin-left: 28px;
+    margin-right: auto;
+    height: 400px;
+}
+
+#smol{
+    font-size: xx-small;
+    color: #260154;
 }
