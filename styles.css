@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'moogalator';
+    src: url("Fonts/Moogalator.ttf");
+}
+
+@font-face {
+    font-family: 'witcher';
+    src: url("Fonts/WitcherHandwritingRegular.ttf");
+}
+
 ul{
     display: flex;
     gap: 5px;
@@ -68,6 +78,11 @@ body{
 
 h1{
     text-align: center;
+    font-family: "moogalator";
+}
+
+h2{
+    font-family: "witcher";
 }
 
 nav{
