@@ -13,27 +13,23 @@
     src: url("Fonts/MonainnRegular.otf");
 }
 
-ul{
+nav{
     display: flex;
     gap: 5px;
     padding-left: 0px;
     justify-content: space-around;
+    align-items: center;
 }
 
-ul a{
+a{
     flex: 1;
-}
-
-a li{
-    flex: 1;
-    list-style: none;
     color: black;
     background-color: rgb(170, 94, 231);
     text-align: center;
     padding: 10px;
 }
 
-ul a li:hover{
+a:hover{
     background-color: rgb(113, 39, 184);
 
 }
@@ -123,11 +119,18 @@ p{
 
 #smol{
     font-size: xx-small;
-    color: #260154;
     margin: -100px;
     margin-left: 15px;
     z-index: 999;
     position: fixed;
+    -webkit-animation: bgcolor 15s infinite;
+    animation: bgcolor 7.5s infinite;
+    
+    -webkit-animation: txtcolor 15s infinite;
+    animation: txtcolor 7.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    
 }
 
 #larg{
@@ -164,6 +167,20 @@ p{
 
     100% {
         background-color: #6d3ca1
+    }
+}
+
+@keyframes txtcolor {
+    0% {
+        color: #552586
+    }
+
+    50% {
+        color: #6A359C
+    }
+
+    100% {
+        color: #6d3ca1
     }
 }
 
