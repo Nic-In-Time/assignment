@@ -195,6 +195,10 @@ body {
     padding-bottom: 50px;
 }
 
+.glossary{
+    list-style: none;
+}
+
 @keyframes thisbutton {
     from {
         transform: translate(0px);
