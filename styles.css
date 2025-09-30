@@ -49,11 +49,11 @@ header{
     text-align: center;
 }
 
-#article1{
+.article1{
     display: flex;
 }
 
-#article1 article{
+.article1 article{
     flex: 1;
 }
 
@@ -86,6 +86,11 @@ h1{
 
 h2{
     font-family: "witcher";
+    margin-top: 40px;
+}
+
+article h2{
+    margin-top: 16px;
 }
 
 nav{
@@ -170,23 +175,37 @@ p{
     }
 }
 
-@keyframes txtcolor {
-    0% {
-        color: #552586
-    }
 
-    50% {
-        color: #6A359C
-    }
-
-    100% {
-        color: #6d3ca1
-    }
-}
 
 body {
     -webkit-animation: bgcolor 15s infinite;
     animation: bgcolor 7.5s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+}
+
+@keyframes thisbutton {
+    from {
+        transform: translate(0px);
+    }
+    
+    to {
+        transform: translate(200px);
+    }
+    
+}
+
+#test a{
+    transition: transform 0.5s;
+    padding:10px; 
+    border:2px solid white; 
+    display:inline-block;
+}
+
+#test a:hover{
+    transform: translateX(20px);
+}
+
+div{
+    padding-top: -50px;
 }
