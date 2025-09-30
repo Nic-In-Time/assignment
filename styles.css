@@ -191,6 +191,10 @@ body {
     animation-direction: alternate;
 }
 
+.morePad{
+    padding-bottom: 50px;
+}
+
 @keyframes thisbutton {
     from {
         transform: translate(0px);
