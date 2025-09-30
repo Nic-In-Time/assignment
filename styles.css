@@ -21,6 +21,10 @@ nav{
     align-items: center;
 }
 
+nav h2{
+    margin-right: 20px;
+}
+
 a{
     flex: 1;
     color: black;
@@ -75,6 +79,8 @@ a{
 body{
     background-color: #260154;
     color: white;
+    cursor: default;
+    margin: 0px;
 }
 
 h1{
@@ -106,6 +112,7 @@ nav{
 main{
     position: relative;
     top: 100px;
+    margin: 8px;
 }
 
 p{
@@ -206,6 +213,3 @@ body {
     transform: translateX(20px);
 }
 
-div{
-    padding-top: -50px;
-}
